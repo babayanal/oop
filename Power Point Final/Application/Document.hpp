@@ -16,8 +16,8 @@ private:
 public:
     void addSlide(const Slide &slide);
     void delSlide(const Id &id);
-    VectorOfStrings getSlideTitles();
-    Slide getSlideById(const Id &id);
+    VectorOfStrings getSlideTitles(); // Is slide title same as Id or different thing?
+    Slide getSlideById(const Id &id); // Returns a copy of th slide, not good
 };
 
 #endif DOCUMENT_HPP

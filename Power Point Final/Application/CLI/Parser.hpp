@@ -10,10 +10,10 @@ using VectorOfStrings = std::vector<String>;
 class Parser
 {
 public:
-    Command parse(String);
+    Command parse(String); // TK: Parsers input should be istream&
 
 private:
-    VectorOfStrings tokenize(String);
+    VectorOfStrings tokenize(String); // Actually there is no need to tokenize whole string at once, instead parser should consume tokens one by one 
 };
 
 #endif // PARSER_HPP
