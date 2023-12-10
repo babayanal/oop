@@ -1,0 +1,43 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/Actions/AddItemAction.cpp.o"
+  "CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/Actions/AddItemAction.cpp.o.d"
+  "CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/Application.cpp.o"
+  "CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/Application.cpp.o.d"
+  "CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/CLI/AddCommand.cpp.o"
+  "CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/CLI/AddCommand.cpp.o.d"
+  "CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/CLI/CommandFactory.cpp.o"
+  "CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/CLI/CommandFactory.cpp.o.d"
+  "CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/CLI/Controller.cpp.o"
+  "CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/CLI/Controller.cpp.o.d"
+  "CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/CLI/DelCommand.cpp.o"
+  "CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/CLI/DelCommand.cpp.o.d"
+  "CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/CLI/DisplayCommand.cpp.o"
+  "CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/CLI/DisplayCommand.cpp.o.d"
+  "CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/CLI/ExitCommand.cpp.o"
+  "CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/CLI/ExitCommand.cpp.o.d"
+  "CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/CLI/ListCommand.cpp.o"
+  "CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/CLI/ListCommand.cpp.o.d"
+  "CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/CLI/LoadCommand.cpp.o"
+  "CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/CLI/LoadCommand.cpp.o.d"
+  "CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/CLI/Parser.cpp.o"
+  "CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/CLI/Parser.cpp.o.d"
+  "CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/CLI/SaveCommand.cpp.o"
+  "CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/CLI/SaveCommand.cpp.o.d"
+  "CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/Director.cpp.o"
+  "CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/Director.cpp.o.d"
+  "CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/Document.cpp.o"
+  "CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/Document.cpp.o.d"
+  "CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/Item.cpp.o"
+  "CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/Item.cpp.o.d"
+  "CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/Slide.cpp.o"
+  "CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/Slide.cpp.o.d"
+  "CMakeFiles/Power_Point_Final.dir/Power_Point_Final/main.cpp.o"
+  "CMakeFiles/Power_Point_Final.dir/Power_Point_Final/main.cpp.o.d"
+  "Power_Point_Final"
+  "Power_Point_Final.pdb"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/Power_Point_Final.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()
