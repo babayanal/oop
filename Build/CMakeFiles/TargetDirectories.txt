@@ -1,0 +1,3 @@
+/home/alvard/Documents/4-rd kurs/OOP/oop/Build/CMakeFiles/Power_Point_Final.dir
+/home/alvard/Documents/4-rd kurs/OOP/oop/Build/CMakeFiles/edit_cache.dir
+/home/alvard/Documents/4-rd kurs/OOP/oop/Build/CMakeFiles/rebuild_cache.dir
