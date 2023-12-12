@@ -2,11 +2,11 @@
 #include <memory>
 #include <algorithm>
 
-int Slide::ID=1;
+int Slide::ID = 1;
 
-
-Slide::Slide(){
-    id=ID++;
+Slide::Slide()
+{
+    id = ID++;
 }
 
 void Slide::addItem(std::shared_ptr<Item> item)
@@ -14,12 +14,11 @@ void Slide::addItem(std::shared_ptr<Item> item)
     items.push_back(item);
 }
 
-void Slide::delItem(int id)
+void Slide::delItem(std::shared_ptr<Item> item)
 {
-    items.erase(std::remove_if(items.begin(), items.end(),
-                               [&id](auto item)
-                               { return item->getId() == id; }),
-                items.end());
+    auto removeCondition = [item](std::shared_ptr<Item> elem)
+    { return item == elem; };
+    items.erase(std::remove_if(items.begin(), items.end(), removeCondition), items.end());
 }
 
 vectorOfItems Slide::getItems()
@@ -36,10 +35,10 @@ std::shared_ptr<Item> Slide::getItemById(int id)
     {
         return *it;
     }
-    // TODO : exception
+    /// TODO : exception
 }
 
-int Slide::getId()const{
+int Slide::getId() const
+{
     return id;
 }
-

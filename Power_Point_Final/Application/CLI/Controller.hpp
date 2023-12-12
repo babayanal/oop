@@ -11,9 +11,14 @@ public:
     void run(std::istream &, std::ostream &);
     void exit();
 
+public:
+    std::istream &getInput();
+    std::ostream &getOutput();
+
 private:
     bool isExit = false;
-    String getInput();
+    std::iostream &input;
+    std::ostream &output;
 };
 
 #endif // CONTROLLER_HPP

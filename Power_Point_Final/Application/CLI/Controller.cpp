@@ -1,6 +1,6 @@
 #include "Controller.hpp"
 
-void Controller::run(std::istream & is, std::ostream & os)
+void Controller::run(std::istream &is, std::ostream &os)
 {
     Parser parser;
     while (!isExit)
@@ -10,13 +10,17 @@ void Controller::run(std::istream & is, std::ostream & os)
     }
 }
 
-String Controller ::getInput()
+std::istream &Controller ::getInput()
 {
-    std::string input;
-    std::getline(std::cin, input);
     return input;
 }
 
-void Controller::exit(){
-    isExit=true;
+std::ostream &Controller::getOutput()
+{
+    return output;
+}
+
+void Controller::exit()
+{
+    isExit = true;
 }

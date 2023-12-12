@@ -1,5 +1,5 @@
-#ifndef ADD_ACTION_HPP
-#define ADD_ACTION_HPP
+#ifndef ADD_ITEM_ACTION_HPP
+#define ADD_ITEM_ACTION_HPP
 
 #include <memory>
 #include "Action.hpp"
@@ -18,4 +18,4 @@ private:
     std::shared_ptr< Item > item;
     int slideId;
 };
-#endif // ADD_ACTION_HPP
+#endif // ADD_ITEM_ACTION_HPP

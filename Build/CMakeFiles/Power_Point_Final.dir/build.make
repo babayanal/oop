@@ -83,10 +83,52 @@ CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/Actions/AddItemAc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/Actions/AddItemAction.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/alvard/Documents/4-rd kurs/OOP/oop/Power_Point_Final/Application/Actions/AddItemAction.cpp" -o CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/Actions/AddItemAction.cpp.s
 
+CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/Actions/AddSLideAction.cpp.o: CMakeFiles/Power_Point_Final.dir/flags.make
+CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/Actions/AddSLideAction.cpp.o: ../Power_Point_Final/Application/Actions/AddSLideAction.cpp
+CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/Actions/AddSLideAction.cpp.o: CMakeFiles/Power_Point_Final.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/alvard/Documents/4-rd kurs/OOP/oop/Build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/Actions/AddSLideAction.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/Actions/AddSLideAction.cpp.o -MF CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/Actions/AddSLideAction.cpp.o.d -o CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/Actions/AddSLideAction.cpp.o -c "/home/alvard/Documents/4-rd kurs/OOP/oop/Power_Point_Final/Application/Actions/AddSLideAction.cpp"
+
+CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/Actions/AddSLideAction.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/Actions/AddSLideAction.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/alvard/Documents/4-rd kurs/OOP/oop/Power_Point_Final/Application/Actions/AddSLideAction.cpp" > CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/Actions/AddSLideAction.cpp.i
+
+CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/Actions/AddSLideAction.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/Actions/AddSLideAction.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/alvard/Documents/4-rd kurs/OOP/oop/Power_Point_Final/Application/Actions/AddSLideAction.cpp" -o CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/Actions/AddSLideAction.cpp.s
+
+CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/Actions/DelItemAction.cpp.o: CMakeFiles/Power_Point_Final.dir/flags.make
+CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/Actions/DelItemAction.cpp.o: ../Power_Point_Final/Application/Actions/DelItemAction.cpp
+CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/Actions/DelItemAction.cpp.o: CMakeFiles/Power_Point_Final.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/alvard/Documents/4-rd kurs/OOP/oop/Build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/Actions/DelItemAction.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/Actions/DelItemAction.cpp.o -MF CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/Actions/DelItemAction.cpp.o.d -o CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/Actions/DelItemAction.cpp.o -c "/home/alvard/Documents/4-rd kurs/OOP/oop/Power_Point_Final/Application/Actions/DelItemAction.cpp"
+
+CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/Actions/DelItemAction.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/Actions/DelItemAction.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/alvard/Documents/4-rd kurs/OOP/oop/Power_Point_Final/Application/Actions/DelItemAction.cpp" > CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/Actions/DelItemAction.cpp.i
+
+CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/Actions/DelItemAction.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/Actions/DelItemAction.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/alvard/Documents/4-rd kurs/OOP/oop/Power_Point_Final/Application/Actions/DelItemAction.cpp" -o CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/Actions/DelItemAction.cpp.s
+
+CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/Actions/DelSlideAction.cpp.o: CMakeFiles/Power_Point_Final.dir/flags.make
+CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/Actions/DelSlideAction.cpp.o: ../Power_Point_Final/Application/Actions/DelSlideAction.cpp
+CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/Actions/DelSlideAction.cpp.o: CMakeFiles/Power_Point_Final.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/alvard/Documents/4-rd kurs/OOP/oop/Build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/Actions/DelSlideAction.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/Actions/DelSlideAction.cpp.o -MF CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/Actions/DelSlideAction.cpp.o.d -o CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/Actions/DelSlideAction.cpp.o -c "/home/alvard/Documents/4-rd kurs/OOP/oop/Power_Point_Final/Application/Actions/DelSlideAction.cpp"
+
+CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/Actions/DelSlideAction.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/Actions/DelSlideAction.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/alvard/Documents/4-rd kurs/OOP/oop/Power_Point_Final/Application/Actions/DelSlideAction.cpp" > CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/Actions/DelSlideAction.cpp.i
+
+CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/Actions/DelSlideAction.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/Actions/DelSlideAction.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/alvard/Documents/4-rd kurs/OOP/oop/Power_Point_Final/Application/Actions/DelSlideAction.cpp" -o CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/Actions/DelSlideAction.cpp.s
+
 CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/Application.cpp.o: CMakeFiles/Power_Point_Final.dir/flags.make
 CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/Application.cpp.o: ../Power_Point_Final/Application/Application.cpp
 CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/Application.cpp.o: CMakeFiles/Power_Point_Final.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/alvard/Documents/4-rd kurs/OOP/oop/Build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/Application.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/alvard/Documents/4-rd kurs/OOP/oop/Build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/Application.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/Application.cpp.o -MF CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/Application.cpp.o.d -o CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/Application.cpp.o -c "/home/alvard/Documents/4-rd kurs/OOP/oop/Power_Point_Final/Application/Application.cpp"
 
 CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/Application.cpp.i: cmake_force
@@ -100,7 +142,7 @@ CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/Application.cpp.s
 CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/CLI/AddCommand.cpp.o: CMakeFiles/Power_Point_Final.dir/flags.make
 CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/CLI/AddCommand.cpp.o: ../Power_Point_Final/Application/CLI/AddCommand.cpp
 CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/CLI/AddCommand.cpp.o: CMakeFiles/Power_Point_Final.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/alvard/Documents/4-rd kurs/OOP/oop/Build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/CLI/AddCommand.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/alvard/Documents/4-rd kurs/OOP/oop/Build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/CLI/AddCommand.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/CLI/AddCommand.cpp.o -MF CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/CLI/AddCommand.cpp.o.d -o CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/CLI/AddCommand.cpp.o -c "/home/alvard/Documents/4-rd kurs/OOP/oop/Power_Point_Final/Application/CLI/AddCommand.cpp"
 
 CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/CLI/AddCommand.cpp.i: cmake_force
@@ -114,7 +156,7 @@ CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/CLI/AddCommand.cp
 CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/CLI/CommandFactory.cpp.o: CMakeFiles/Power_Point_Final.dir/flags.make
 CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/CLI/CommandFactory.cpp.o: ../Power_Point_Final/Application/CLI/CommandFactory.cpp
 CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/CLI/CommandFactory.cpp.o: CMakeFiles/Power_Point_Final.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/alvard/Documents/4-rd kurs/OOP/oop/Build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/CLI/CommandFactory.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/alvard/Documents/4-rd kurs/OOP/oop/Build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/CLI/CommandFactory.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/CLI/CommandFactory.cpp.o -MF CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/CLI/CommandFactory.cpp.o.d -o CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/CLI/CommandFactory.cpp.o -c "/home/alvard/Documents/4-rd kurs/OOP/oop/Power_Point_Final/Application/CLI/CommandFactory.cpp"
 
 CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/CLI/CommandFactory.cpp.i: cmake_force
@@ -128,7 +170,7 @@ CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/CLI/CommandFactor
 CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/CLI/Controller.cpp.o: CMakeFiles/Power_Point_Final.dir/flags.make
 CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/CLI/Controller.cpp.o: ../Power_Point_Final/Application/CLI/Controller.cpp
 CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/CLI/Controller.cpp.o: CMakeFiles/Power_Point_Final.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/alvard/Documents/4-rd kurs/OOP/oop/Build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/CLI/Controller.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/alvard/Documents/4-rd kurs/OOP/oop/Build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/CLI/Controller.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/CLI/Controller.cpp.o -MF CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/CLI/Controller.cpp.o.d -o CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/CLI/Controller.cpp.o -c "/home/alvard/Documents/4-rd kurs/OOP/oop/Power_Point_Final/Application/CLI/Controller.cpp"
 
 CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/CLI/Controller.cpp.i: cmake_force
@@ -142,7 +184,7 @@ CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/CLI/Controller.cp
 CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/CLI/DelCommand.cpp.o: CMakeFiles/Power_Point_Final.dir/flags.make
 CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/CLI/DelCommand.cpp.o: ../Power_Point_Final/Application/CLI/DelCommand.cpp
 CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/CLI/DelCommand.cpp.o: CMakeFiles/Power_Point_Final.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/alvard/Documents/4-rd kurs/OOP/oop/Build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/CLI/DelCommand.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/alvard/Documents/4-rd kurs/OOP/oop/Build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/CLI/DelCommand.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/CLI/DelCommand.cpp.o -MF CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/CLI/DelCommand.cpp.o.d -o CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/CLI/DelCommand.cpp.o -c "/home/alvard/Documents/4-rd kurs/OOP/oop/Power_Point_Final/Application/CLI/DelCommand.cpp"
 
 CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/CLI/DelCommand.cpp.i: cmake_force
@@ -156,7 +198,7 @@ CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/CLI/DelCommand.cp
 CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/CLI/DisplayCommand.cpp.o: CMakeFiles/Power_Point_Final.dir/flags.make
 CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/CLI/DisplayCommand.cpp.o: ../Power_Point_Final/Application/CLI/DisplayCommand.cpp
 CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/CLI/DisplayCommand.cpp.o: CMakeFiles/Power_Point_Final.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/alvard/Documents/4-rd kurs/OOP/oop/Build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/CLI/DisplayCommand.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/alvard/Documents/4-rd kurs/OOP/oop/Build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/CLI/DisplayCommand.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/CLI/DisplayCommand.cpp.o -MF CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/CLI/DisplayCommand.cpp.o.d -o CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/CLI/DisplayCommand.cpp.o -c "/home/alvard/Documents/4-rd kurs/OOP/oop/Power_Point_Final/Application/CLI/DisplayCommand.cpp"
 
 CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/CLI/DisplayCommand.cpp.i: cmake_force
@@ -167,10 +209,24 @@ CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/CLI/DisplayComman
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/CLI/DisplayCommand.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/alvard/Documents/4-rd kurs/OOP/oop/Power_Point_Final/Application/CLI/DisplayCommand.cpp" -o CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/CLI/DisplayCommand.cpp.s
 
+CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/CLI/DrawCommand.cpp.o: CMakeFiles/Power_Point_Final.dir/flags.make
+CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/CLI/DrawCommand.cpp.o: ../Power_Point_Final/Application/CLI/DrawCommand.cpp
+CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/CLI/DrawCommand.cpp.o: CMakeFiles/Power_Point_Final.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/alvard/Documents/4-rd kurs/OOP/oop/Build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/CLI/DrawCommand.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/CLI/DrawCommand.cpp.o -MF CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/CLI/DrawCommand.cpp.o.d -o CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/CLI/DrawCommand.cpp.o -c "/home/alvard/Documents/4-rd kurs/OOP/oop/Power_Point_Final/Application/CLI/DrawCommand.cpp"
+
+CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/CLI/DrawCommand.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/CLI/DrawCommand.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/alvard/Documents/4-rd kurs/OOP/oop/Power_Point_Final/Application/CLI/DrawCommand.cpp" > CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/CLI/DrawCommand.cpp.i
+
+CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/CLI/DrawCommand.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/CLI/DrawCommand.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/alvard/Documents/4-rd kurs/OOP/oop/Power_Point_Final/Application/CLI/DrawCommand.cpp" -o CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/CLI/DrawCommand.cpp.s
+
 CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/CLI/ExitCommand.cpp.o: CMakeFiles/Power_Point_Final.dir/flags.make
 CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/CLI/ExitCommand.cpp.o: ../Power_Point_Final/Application/CLI/ExitCommand.cpp
 CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/CLI/ExitCommand.cpp.o: CMakeFiles/Power_Point_Final.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/alvard/Documents/4-rd kurs/OOP/oop/Build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/CLI/ExitCommand.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/alvard/Documents/4-rd kurs/OOP/oop/Build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/CLI/ExitCommand.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/CLI/ExitCommand.cpp.o -MF CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/CLI/ExitCommand.cpp.o.d -o CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/CLI/ExitCommand.cpp.o -c "/home/alvard/Documents/4-rd kurs/OOP/oop/Power_Point_Final/Application/CLI/ExitCommand.cpp"
 
 CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/CLI/ExitCommand.cpp.i: cmake_force
@@ -184,7 +240,7 @@ CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/CLI/ExitCommand.c
 CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/CLI/ListCommand.cpp.o: CMakeFiles/Power_Point_Final.dir/flags.make
 CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/CLI/ListCommand.cpp.o: ../Power_Point_Final/Application/CLI/ListCommand.cpp
 CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/CLI/ListCommand.cpp.o: CMakeFiles/Power_Point_Final.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/alvard/Documents/4-rd kurs/OOP/oop/Build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/CLI/ListCommand.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/alvard/Documents/4-rd kurs/OOP/oop/Build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/CLI/ListCommand.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/CLI/ListCommand.cpp.o -MF CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/CLI/ListCommand.cpp.o.d -o CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/CLI/ListCommand.cpp.o -c "/home/alvard/Documents/4-rd kurs/OOP/oop/Power_Point_Final/Application/CLI/ListCommand.cpp"
 
 CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/CLI/ListCommand.cpp.i: cmake_force
@@ -198,7 +254,7 @@ CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/CLI/ListCommand.c
 CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/CLI/LoadCommand.cpp.o: CMakeFiles/Power_Point_Final.dir/flags.make
 CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/CLI/LoadCommand.cpp.o: ../Power_Point_Final/Application/CLI/LoadCommand.cpp
 CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/CLI/LoadCommand.cpp.o: CMakeFiles/Power_Point_Final.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/alvard/Documents/4-rd kurs/OOP/oop/Build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/CLI/LoadCommand.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/alvard/Documents/4-rd kurs/OOP/oop/Build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/CLI/LoadCommand.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/CLI/LoadCommand.cpp.o -MF CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/CLI/LoadCommand.cpp.o.d -o CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/CLI/LoadCommand.cpp.o -c "/home/alvard/Documents/4-rd kurs/OOP/oop/Power_Point_Final/Application/CLI/LoadCommand.cpp"
 
 CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/CLI/LoadCommand.cpp.i: cmake_force
@@ -212,7 +268,7 @@ CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/CLI/LoadCommand.c
 CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/CLI/Parser.cpp.o: CMakeFiles/Power_Point_Final.dir/flags.make
 CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/CLI/Parser.cpp.o: ../Power_Point_Final/Application/CLI/Parser.cpp
 CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/CLI/Parser.cpp.o: CMakeFiles/Power_Point_Final.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/alvard/Documents/4-rd kurs/OOP/oop/Build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/CLI/Parser.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/alvard/Documents/4-rd kurs/OOP/oop/Build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/CLI/Parser.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/CLI/Parser.cpp.o -MF CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/CLI/Parser.cpp.o.d -o CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/CLI/Parser.cpp.o -c "/home/alvard/Documents/4-rd kurs/OOP/oop/Power_Point_Final/Application/CLI/Parser.cpp"
 
 CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/CLI/Parser.cpp.i: cmake_force
@@ -226,7 +282,7 @@ CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/CLI/Parser.cpp.s:
 CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/CLI/SaveCommand.cpp.o: CMakeFiles/Power_Point_Final.dir/flags.make
 CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/CLI/SaveCommand.cpp.o: ../Power_Point_Final/Application/CLI/SaveCommand.cpp
 CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/CLI/SaveCommand.cpp.o: CMakeFiles/Power_Point_Final.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/alvard/Documents/4-rd kurs/OOP/oop/Build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/CLI/SaveCommand.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/alvard/Documents/4-rd kurs/OOP/oop/Build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/CLI/SaveCommand.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/CLI/SaveCommand.cpp.o -MF CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/CLI/SaveCommand.cpp.o.d -o CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/CLI/SaveCommand.cpp.o -c "/home/alvard/Documents/4-rd kurs/OOP/oop/Power_Point_Final/Application/CLI/SaveCommand.cpp"
 
 CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/CLI/SaveCommand.cpp.i: cmake_force
@@ -240,7 +296,7 @@ CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/CLI/SaveCommand.c
 CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/Director.cpp.o: CMakeFiles/Power_Point_Final.dir/flags.make
 CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/Director.cpp.o: ../Power_Point_Final/Application/Director.cpp
 CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/Director.cpp.o: CMakeFiles/Power_Point_Final.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/alvard/Documents/4-rd kurs/OOP/oop/Build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/Director.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/alvard/Documents/4-rd kurs/OOP/oop/Build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/Director.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/Director.cpp.o -MF CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/Director.cpp.o.d -o CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/Director.cpp.o -c "/home/alvard/Documents/4-rd kurs/OOP/oop/Power_Point_Final/Application/Director.cpp"
 
 CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/Director.cpp.i: cmake_force
@@ -254,7 +310,7 @@ CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/Director.cpp.s: c
 CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/Document.cpp.o: CMakeFiles/Power_Point_Final.dir/flags.make
 CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/Document.cpp.o: ../Power_Point_Final/Application/Document.cpp
 CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/Document.cpp.o: CMakeFiles/Power_Point_Final.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/alvard/Documents/4-rd kurs/OOP/oop/Build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/Document.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/alvard/Documents/4-rd kurs/OOP/oop/Build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/Document.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/Document.cpp.o -MF CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/Document.cpp.o.d -o CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/Document.cpp.o -c "/home/alvard/Documents/4-rd kurs/OOP/oop/Power_Point_Final/Application/Document.cpp"
 
 CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/Document.cpp.i: cmake_force
@@ -268,7 +324,7 @@ CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/Document.cpp.s: c
 CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/Item.cpp.o: CMakeFiles/Power_Point_Final.dir/flags.make
 CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/Item.cpp.o: ../Power_Point_Final/Application/Item.cpp
 CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/Item.cpp.o: CMakeFiles/Power_Point_Final.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/alvard/Documents/4-rd kurs/OOP/oop/Build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/Item.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/alvard/Documents/4-rd kurs/OOP/oop/Build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/Item.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/Item.cpp.o -MF CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/Item.cpp.o.d -o CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/Item.cpp.o -c "/home/alvard/Documents/4-rd kurs/OOP/oop/Power_Point_Final/Application/Item.cpp"
 
 CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/Item.cpp.i: cmake_force
@@ -282,7 +338,7 @@ CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/Item.cpp.s: cmake
 CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/Slide.cpp.o: CMakeFiles/Power_Point_Final.dir/flags.make
 CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/Slide.cpp.o: ../Power_Point_Final/Application/Slide.cpp
 CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/Slide.cpp.o: CMakeFiles/Power_Point_Final.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/alvard/Documents/4-rd kurs/OOP/oop/Build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/Slide.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/alvard/Documents/4-rd kurs/OOP/oop/Build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/Slide.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/Slide.cpp.o -MF CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/Slide.cpp.o.d -o CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/Slide.cpp.o -c "/home/alvard/Documents/4-rd kurs/OOP/oop/Power_Point_Final/Application/Slide.cpp"
 
 CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/Slide.cpp.i: cmake_force
@@ -296,7 +352,7 @@ CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/Slide.cpp.s: cmak
 CMakeFiles/Power_Point_Final.dir/Power_Point_Final/main.cpp.o: CMakeFiles/Power_Point_Final.dir/flags.make
 CMakeFiles/Power_Point_Final.dir/Power_Point_Final/main.cpp.o: ../Power_Point_Final/main.cpp
 CMakeFiles/Power_Point_Final.dir/Power_Point_Final/main.cpp.o: CMakeFiles/Power_Point_Final.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/alvard/Documents/4-rd kurs/OOP/oop/Build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/Power_Point_Final.dir/Power_Point_Final/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/alvard/Documents/4-rd kurs/OOP/oop/Build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/Power_Point_Final.dir/Power_Point_Final/main.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Power_Point_Final.dir/Power_Point_Final/main.cpp.o -MF CMakeFiles/Power_Point_Final.dir/Power_Point_Final/main.cpp.o.d -o CMakeFiles/Power_Point_Final.dir/Power_Point_Final/main.cpp.o -c "/home/alvard/Documents/4-rd kurs/OOP/oop/Power_Point_Final/main.cpp"
 
 CMakeFiles/Power_Point_Final.dir/Power_Point_Final/main.cpp.i: cmake_force
@@ -310,12 +366,16 @@ CMakeFiles/Power_Point_Final.dir/Power_Point_Final/main.cpp.s: cmake_force
 # Object files for target Power_Point_Final
 Power_Point_Final_OBJECTS = \
 "CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/Actions/AddItemAction.cpp.o" \
+"CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/Actions/AddSLideAction.cpp.o" \
+"CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/Actions/DelItemAction.cpp.o" \
+"CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/Actions/DelSlideAction.cpp.o" \
 "CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/Application.cpp.o" \
 "CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/CLI/AddCommand.cpp.o" \
 "CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/CLI/CommandFactory.cpp.o" \
 "CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/CLI/Controller.cpp.o" \
 "CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/CLI/DelCommand.cpp.o" \
 "CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/CLI/DisplayCommand.cpp.o" \
+"CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/CLI/DrawCommand.cpp.o" \
 "CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/CLI/ExitCommand.cpp.o" \
 "CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/CLI/ListCommand.cpp.o" \
 "CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/CLI/LoadCommand.cpp.o" \
@@ -331,12 +391,16 @@ Power_Point_Final_OBJECTS = \
 Power_Point_Final_EXTERNAL_OBJECTS =
 
 Power_Point_Final: CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/Actions/AddItemAction.cpp.o
+Power_Point_Final: CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/Actions/AddSLideAction.cpp.o
+Power_Point_Final: CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/Actions/DelItemAction.cpp.o
+Power_Point_Final: CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/Actions/DelSlideAction.cpp.o
 Power_Point_Final: CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/Application.cpp.o
 Power_Point_Final: CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/CLI/AddCommand.cpp.o
 Power_Point_Final: CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/CLI/CommandFactory.cpp.o
 Power_Point_Final: CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/CLI/Controller.cpp.o
 Power_Point_Final: CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/CLI/DelCommand.cpp.o
 Power_Point_Final: CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/CLI/DisplayCommand.cpp.o
+Power_Point_Final: CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/CLI/DrawCommand.cpp.o
 Power_Point_Final: CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/CLI/ExitCommand.cpp.o
 Power_Point_Final: CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/CLI/ListCommand.cpp.o
 Power_Point_Final: CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/CLI/LoadCommand.cpp.o
@@ -349,7 +413,7 @@ Power_Point_Final: CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Applicatio
 Power_Point_Final: CMakeFiles/Power_Point_Final.dir/Power_Point_Final/main.cpp.o
 Power_Point_Final: CMakeFiles/Power_Point_Final.dir/build.make
 Power_Point_Final: CMakeFiles/Power_Point_Final.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/alvard/Documents/4-rd kurs/OOP/oop/Build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_18) "Linking CXX executable Power_Point_Final"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/alvard/Documents/4-rd kurs/OOP/oop/Build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_22) "Linking CXX executable Power_Point_Final"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Power_Point_Final.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

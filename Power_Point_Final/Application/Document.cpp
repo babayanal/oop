@@ -6,12 +6,11 @@ void Document::addSlide(std::shared_ptr<Slide> slide)
     slides.push_back(slide);
 }
 
-void Document::delSlide(int id)
+void Document::delSlide(std::shared_ptr<Slide> slide)
 {
-    slides.erase(std::remove_if(slides.begin(), slides.end(),
-                                [&id](auto slide)
-                                { return slide->getId() == id; }),
-                 slides.end());
+    auto removeCondition = [slide](std::shared_ptr<Slide> elem)
+    { return slide == elem; };
+    slides.erase(std::remove_if(slides.begin(), slides.end(), removeCondition), slides.end());
 }
 
 const std::vector<std::shared_ptr<Slide>> &Document::getSlides() const
@@ -28,5 +27,5 @@ std::shared_ptr<Slide> Document::getSlideById(int id)
     {
         return *it;
     }
-    // TODO: exception
+    /// TODO: exception
 }

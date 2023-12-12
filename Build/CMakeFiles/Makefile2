@@ -81,12 +81,12 @@ clean: CMakeFiles/Power_Point_Final.dir/clean
 CMakeFiles/Power_Point_Final.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Power_Point_Final.dir/build.make CMakeFiles/Power_Point_Final.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Power_Point_Final.dir/build.make CMakeFiles/Power_Point_Final.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/alvard/Documents/4-rd kurs/OOP/oop/Build/CMakeFiles" --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18 "Built target Power_Point_Final"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/alvard/Documents/4-rd kurs/OOP/oop/Build/CMakeFiles" --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22 "Built target Power_Point_Final"
 .PHONY : CMakeFiles/Power_Point_Final.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Power_Point_Final.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/alvard/Documents/4-rd kurs/OOP/oop/Build/CMakeFiles" 18
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/alvard/Documents/4-rd kurs/OOP/oop/Build/CMakeFiles" 22
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/Power_Point_Final.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start "/home/alvard/Documents/4-rd kurs/OOP/oop/Build/CMakeFiles" 0
 .PHONY : CMakeFiles/Power_Point_Final.dir/rule
