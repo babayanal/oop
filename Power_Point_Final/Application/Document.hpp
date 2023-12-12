@@ -15,9 +15,9 @@ private:
 
 public:
     void addSlide(std::shared_ptr<Slide>);
-    void delSlide(int id);
-    const std::vector<std::shared_ptr<Slide>> & getSlides() const;
+    void delSlide(std::shared_ptr<Slide> slide);
+    const std::vector<std::shared_ptr<Slide>> &getSlides() const;
     std::shared_ptr<Slide> getSlideById(int id);
 };
 
-#endif //DOCUMENT_HPP
+#endif // DOCUMENT_HPP

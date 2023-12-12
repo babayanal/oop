@@ -14,7 +14,7 @@ void AddCommand::exec()
     }
     else if(args.at("-type")=="item") {
         int id=std::stoi(args.at("-id"));
-        //TODO: need to add exception 
+        ///TODO: need to add exception 
         auto item = std::make_shared<Item>();
         item->setShape(args.at("-shape"));
         auto action=std::make_shared<AddItemAction>(item,id);

@@ -153,6 +153,78 @@ Power_Point_Final/Application/Actions/AddItemAction.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Power_Point_Final.dir/build.make CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/Actions/AddItemAction.cpp.s
 .PHONY : Power_Point_Final/Application/Actions/AddItemAction.cpp.s
 
+Power_Point_Final/Application/Actions/AddSLideAction.o: Power_Point_Final/Application/Actions/AddSLideAction.cpp.o
+.PHONY : Power_Point_Final/Application/Actions/AddSLideAction.o
+
+# target to build an object file
+Power_Point_Final/Application/Actions/AddSLideAction.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Power_Point_Final.dir/build.make CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/Actions/AddSLideAction.cpp.o
+.PHONY : Power_Point_Final/Application/Actions/AddSLideAction.cpp.o
+
+Power_Point_Final/Application/Actions/AddSLideAction.i: Power_Point_Final/Application/Actions/AddSLideAction.cpp.i
+.PHONY : Power_Point_Final/Application/Actions/AddSLideAction.i
+
+# target to preprocess a source file
+Power_Point_Final/Application/Actions/AddSLideAction.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Power_Point_Final.dir/build.make CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/Actions/AddSLideAction.cpp.i
+.PHONY : Power_Point_Final/Application/Actions/AddSLideAction.cpp.i
+
+Power_Point_Final/Application/Actions/AddSLideAction.s: Power_Point_Final/Application/Actions/AddSLideAction.cpp.s
+.PHONY : Power_Point_Final/Application/Actions/AddSLideAction.s
+
+# target to generate assembly for a file
+Power_Point_Final/Application/Actions/AddSLideAction.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Power_Point_Final.dir/build.make CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/Actions/AddSLideAction.cpp.s
+.PHONY : Power_Point_Final/Application/Actions/AddSLideAction.cpp.s
+
+Power_Point_Final/Application/Actions/DelItemAction.o: Power_Point_Final/Application/Actions/DelItemAction.cpp.o
+.PHONY : Power_Point_Final/Application/Actions/DelItemAction.o
+
+# target to build an object file
+Power_Point_Final/Application/Actions/DelItemAction.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Power_Point_Final.dir/build.make CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/Actions/DelItemAction.cpp.o
+.PHONY : Power_Point_Final/Application/Actions/DelItemAction.cpp.o
+
+Power_Point_Final/Application/Actions/DelItemAction.i: Power_Point_Final/Application/Actions/DelItemAction.cpp.i
+.PHONY : Power_Point_Final/Application/Actions/DelItemAction.i
+
+# target to preprocess a source file
+Power_Point_Final/Application/Actions/DelItemAction.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Power_Point_Final.dir/build.make CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/Actions/DelItemAction.cpp.i
+.PHONY : Power_Point_Final/Application/Actions/DelItemAction.cpp.i
+
+Power_Point_Final/Application/Actions/DelItemAction.s: Power_Point_Final/Application/Actions/DelItemAction.cpp.s
+.PHONY : Power_Point_Final/Application/Actions/DelItemAction.s
+
+# target to generate assembly for a file
+Power_Point_Final/Application/Actions/DelItemAction.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Power_Point_Final.dir/build.make CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/Actions/DelItemAction.cpp.s
+.PHONY : Power_Point_Final/Application/Actions/DelItemAction.cpp.s
+
+Power_Point_Final/Application/Actions/DelSlideAction.o: Power_Point_Final/Application/Actions/DelSlideAction.cpp.o
+.PHONY : Power_Point_Final/Application/Actions/DelSlideAction.o
+
+# target to build an object file
+Power_Point_Final/Application/Actions/DelSlideAction.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Power_Point_Final.dir/build.make CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/Actions/DelSlideAction.cpp.o
+.PHONY : Power_Point_Final/Application/Actions/DelSlideAction.cpp.o
+
+Power_Point_Final/Application/Actions/DelSlideAction.i: Power_Point_Final/Application/Actions/DelSlideAction.cpp.i
+.PHONY : Power_Point_Final/Application/Actions/DelSlideAction.i
+
+# target to preprocess a source file
+Power_Point_Final/Application/Actions/DelSlideAction.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Power_Point_Final.dir/build.make CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/Actions/DelSlideAction.cpp.i
+.PHONY : Power_Point_Final/Application/Actions/DelSlideAction.cpp.i
+
+Power_Point_Final/Application/Actions/DelSlideAction.s: Power_Point_Final/Application/Actions/DelSlideAction.cpp.s
+.PHONY : Power_Point_Final/Application/Actions/DelSlideAction.s
+
+# target to generate assembly for a file
+Power_Point_Final/Application/Actions/DelSlideAction.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Power_Point_Final.dir/build.make CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/Actions/DelSlideAction.cpp.s
+.PHONY : Power_Point_Final/Application/Actions/DelSlideAction.cpp.s
+
 Power_Point_Final/Application/Application.o: Power_Point_Final/Application/Application.cpp.o
 .PHONY : Power_Point_Final/Application/Application.o
 
@@ -296,6 +368,30 @@ Power_Point_Final/Application/CLI/DisplayCommand.s: Power_Point_Final/Applicatio
 Power_Point_Final/Application/CLI/DisplayCommand.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Power_Point_Final.dir/build.make CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/CLI/DisplayCommand.cpp.s
 .PHONY : Power_Point_Final/Application/CLI/DisplayCommand.cpp.s
+
+Power_Point_Final/Application/CLI/DrawCommand.o: Power_Point_Final/Application/CLI/DrawCommand.cpp.o
+.PHONY : Power_Point_Final/Application/CLI/DrawCommand.o
+
+# target to build an object file
+Power_Point_Final/Application/CLI/DrawCommand.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Power_Point_Final.dir/build.make CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/CLI/DrawCommand.cpp.o
+.PHONY : Power_Point_Final/Application/CLI/DrawCommand.cpp.o
+
+Power_Point_Final/Application/CLI/DrawCommand.i: Power_Point_Final/Application/CLI/DrawCommand.cpp.i
+.PHONY : Power_Point_Final/Application/CLI/DrawCommand.i
+
+# target to preprocess a source file
+Power_Point_Final/Application/CLI/DrawCommand.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Power_Point_Final.dir/build.make CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/CLI/DrawCommand.cpp.i
+.PHONY : Power_Point_Final/Application/CLI/DrawCommand.cpp.i
+
+Power_Point_Final/Application/CLI/DrawCommand.s: Power_Point_Final/Application/CLI/DrawCommand.cpp.s
+.PHONY : Power_Point_Final/Application/CLI/DrawCommand.s
+
+# target to generate assembly for a file
+Power_Point_Final/Application/CLI/DrawCommand.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Power_Point_Final.dir/build.make CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/CLI/DrawCommand.cpp.s
+.PHONY : Power_Point_Final/Application/CLI/DrawCommand.cpp.s
 
 Power_Point_Final/Application/CLI/ExitCommand.o: Power_Point_Final/Application/CLI/ExitCommand.cpp.o
 .PHONY : Power_Point_Final/Application/CLI/ExitCommand.o
@@ -549,6 +645,15 @@ help:
 	@echo "... Power_Point_Final/Application/Actions/AddItemAction.o"
 	@echo "... Power_Point_Final/Application/Actions/AddItemAction.i"
 	@echo "... Power_Point_Final/Application/Actions/AddItemAction.s"
+	@echo "... Power_Point_Final/Application/Actions/AddSLideAction.o"
+	@echo "... Power_Point_Final/Application/Actions/AddSLideAction.i"
+	@echo "... Power_Point_Final/Application/Actions/AddSLideAction.s"
+	@echo "... Power_Point_Final/Application/Actions/DelItemAction.o"
+	@echo "... Power_Point_Final/Application/Actions/DelItemAction.i"
+	@echo "... Power_Point_Final/Application/Actions/DelItemAction.s"
+	@echo "... Power_Point_Final/Application/Actions/DelSlideAction.o"
+	@echo "... Power_Point_Final/Application/Actions/DelSlideAction.i"
+	@echo "... Power_Point_Final/Application/Actions/DelSlideAction.s"
 	@echo "... Power_Point_Final/Application/Application.o"
 	@echo "... Power_Point_Final/Application/Application.i"
 	@echo "... Power_Point_Final/Application/Application.s"
@@ -567,6 +672,9 @@ help:
 	@echo "... Power_Point_Final/Application/CLI/DisplayCommand.o"
 	@echo "... Power_Point_Final/Application/CLI/DisplayCommand.i"
 	@echo "... Power_Point_Final/Application/CLI/DisplayCommand.s"
+	@echo "... Power_Point_Final/Application/CLI/DrawCommand.o"
+	@echo "... Power_Point_Final/Application/CLI/DrawCommand.i"
+	@echo "... Power_Point_Final/Application/CLI/DrawCommand.s"
 	@echo "... Power_Point_Final/Application/CLI/ExitCommand.o"
 	@echo "... Power_Point_Final/Application/CLI/ExitCommand.i"
 	@echo "... Power_Point_Final/Application/CLI/ExitCommand.s"

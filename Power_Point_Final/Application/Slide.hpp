@@ -13,10 +13,10 @@ class Slide
 {
 public:
     void addItem(std::shared_ptr<Item>);
-    void delItem(int);
+    void delItem(std::shared_ptr<Item>);
     vectorOfItems getItems();
     std::shared_ptr<Item> getItemById(int);
-    int getId()const;
+    int getId() const;
     Slide();
 
 private:
