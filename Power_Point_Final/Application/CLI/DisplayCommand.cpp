@@ -8,9 +8,9 @@ DisplayCommand::DisplayCommand(MapOfArgs args) : Command(args) {}
 
 void DisplayCommand::exec()
 {
-    std::ostream &output = Application::getController()->getOutput();
+    std::ostream &output = Application::getInstance()->getController()->getOutput();
 
-    const auto &slides = Application::getDocument()->getSlides();
+    const auto &slides = Application::getInstance()->getDocument()->getSlides();
 
     for (const auto &slide : slides)
     {

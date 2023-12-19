@@ -7,11 +7,12 @@ ListCommand::ListCommand(MapOfArgs args) : Command(args) {}
 
 void ListCommand::exec()
 {
-    std::ostream &output = Application::getController()->getOutput();
+    // std::ostream &output = Application::getInstance()->getController()->getOutput();
+    std::ostream &output = std::cout;
     output << "Slides:" << std::endl;
 
-    for (const auto &slide : Application::getDocument()->getSlides())
-    {
-        output << slide->getId() << std::endl;
-    }
+//     for (const auto &slide : Application::getInstance()->getDocument()->getSlides())
+//     {
+//         output << slide->getId() << std::endl;
+//     }
 }

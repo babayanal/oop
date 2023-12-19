@@ -2,42 +2,39 @@
 #include "CLI/Controller.hpp"
 #include "Document.hpp"
 #include "Director.hpp"
+#include <cassert>
 
-Application::Application(std::istream &IS, std::ostream &OS) : is(IS), os(OS) {}
+Application::Application()
+    : director(std::make_shared<Director>()), document(std::make_shared<Document>()) {}
 
-Application::~Application(){}
+Application::~Application() {}
 
 std::shared_ptr<Controller> Application::getController()
 {
-    static std::shared_ptr<Controller> controller;
-    if (!controller)
-    {
-        controller = std::make_shared<Controller>();
-    }
+    assert(!controller);
     return controller;
 }
 
 std::shared_ptr<Document> Application::getDocument()
 {
-    static std::shared_ptr<Document> document;
-    if (!document)
-    {
-        document = std::make_shared<Document>();
-    }
     return document;
 }
 
 std::shared_ptr<Director> Application::getDirector()
 {
-    static std::shared_ptr<Director> director;
-    if (!director)
-    {
-        director = std::make_shared<Director>();
-    }
     return director;
 }
 
-void Application::run()
+void Application::run(std::istream &is, std::ostream &os)
 {
-    getController()->run(is, os);
+    if(!controller){
+        controller=std::make_shared<Controller>(is,os);
+    }
+    controller->run();
+}
+
+Application *Application::getInstance()
+{
+    static Application app;
+    return &app;
 }

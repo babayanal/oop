@@ -172,4 +172,24 @@ CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/CLI/SaveCommand.c
  /usr/include/c++/11/bits/atomic_lockfree_defines.h \
  /usr/include/c++/11/backward/auto_ptr.h \
  /usr/include/c++/11/pstl/glue_memory_defs.h \
- /usr/include/c++/11/pstl/execution_defs.h
+ /usr/include/c++/11/pstl/execution_defs.h \
+ /home/alvard/Documents/4-rd\ kurs/OOP/oop/Power_Point_Final/Application/CLI/../Application.hpp \
+ /home/alvard/Documents/4-rd\ kurs/OOP/oop/Power_Point_Final/Application/CLI/../Document.hpp \
+ /home/alvard/Documents/4-rd\ kurs/OOP/oop/Power_Point_Final/Application/CLI/../Slide.hpp \
+ /usr/include/c++/11/vector /usr/include/c++/11/bits/stl_vector.h \
+ /usr/include/c++/11/bits/stl_bvector.h \
+ /usr/include/c++/11/bits/vector.tcc \
+ /home/alvard/Documents/4-rd\ kurs/OOP/oop/Power_Point_Final/Application/CLI/../Item.hpp \
+ /home/alvard/Documents/4-rd\ kurs/OOP/oop/Power_Point_Final/Application/CLI/../Director.hpp \
+ /home/alvard/Documents/4-rd\ kurs/OOP/oop/Power_Point_Final/Application/CLI/../Actions/Action.hpp \
+ /usr/include/c++/11/stack /usr/include/c++/11/deque \
+ /usr/include/c++/11/bits/stl_deque.h /usr/include/c++/11/bits/deque.tcc \
+ /usr/include/c++/11/bits/stl_stack.h \
+ /home/alvard/Documents/4-rd\ kurs/OOP/oop/Power_Point_Final/Application/CLI/Controller.hpp \
+ /home/alvard/Documents/4-rd\ kurs/OOP/oop/Power_Point_Final/Application/CLI/Parser.hpp \
+ /usr/include/c++/11/sstream /usr/include/c++/11/bits/sstream.tcc \
+ /home/alvard/Documents/4-rd\ kurs/OOP/oop/Power_Point_Final/Application/CLI/CommandFactory.hpp \
+ /usr/include/c++/11/fstream /usr/include/c++/11/bits/codecvt.h \
+ /usr/include/x86_64-linux-gnu/c++/11/bits/basic_file.h \
+ /usr/include/x86_64-linux-gnu/c++/11/bits/c++io.h \
+ /usr/include/c++/11/bits/fstream.tcc

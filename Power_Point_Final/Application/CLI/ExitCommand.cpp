@@ -6,5 +6,5 @@ ExitCommand::ExitCommand(MapOfArgs args) : Command(args) {}
 
 void ExitCommand::exec()
 {
-    Application::getController()->exit();
+    Application::getInstance()->getController()->exit();
 }

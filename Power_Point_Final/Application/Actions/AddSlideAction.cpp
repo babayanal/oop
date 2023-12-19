@@ -6,11 +6,11 @@ AddSlideAction::AddSlideAction(std::shared_ptr<Slide> slide) : slide(slide) {}
 
 void AddSlideAction::exec()
 {
-    Application::getDocument()->addSlide(slide);
+    Application::getInstance()->getDocument()->addSlide(slide);
 }
 
 
 void AddSlideAction::reset()
 {
-    Application::getDocument()->delSlide(slide);
+    Application::getInstance()->getDocument()->delSlide(slide);
 }

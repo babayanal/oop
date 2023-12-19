@@ -8,16 +8,16 @@ class Controller
 {
 
 public:
-    void run(std::istream &, std::ostream &);
+    Controller(std::istream &is, std::ostream &os):input(is),output(os){}
+    void run();
     void exit();
 
-public:
     std::istream &getInput();
     std::ostream &getOutput();
 
 private:
     bool isExit = false;
-    std::iostream &input;
+    std::istream &input;
     std::ostream &output;
 };
 

@@ -2,14 +2,14 @@
 #include "../Application.hpp"
 #include "../Document.hpp"
 
-DelSlideAction::DelSlideAction(int slideId) : slideId(slideId) {}
+DelSlideAction::DelSlideAction(std::shared_ptr<Slide> slide) : slide(slide) {}
 
 void DelSlideAction::exec()
 {
-    Application::getDocument()->getSlideById(slideId)->delSlide(deleted); /// TODO : ???
+    Application::getInstance()->getDocument()->delSlide(slide);
 }
 
 void DelSlideAction::reset()
 {
-    slideId = Application::getDocument()->getSlideById(slideId); /// TODO : ???
+    Application::getInstance()->getDocument()->addSlide(slide);
 }

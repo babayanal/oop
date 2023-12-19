@@ -2,17 +2,15 @@
 #include "../Application.hpp"
 #include "../Document.hpp"
 
-DelItemAction::DelItemAction(int itemId, int slideId)
-    : itemId(itemId), slideId(slideId) {}
+DelItemAction::DelItemAction(std::shared_ptr<Item>  item, int slideId)
+    : item(item), slideId(slideId) {}
 
 void DelItemAction::exec()
 {
-    deleted = Application::getDocument()->getSlideById(slideId)->getItemById(itemId);
-    Application::getDocument()->getSlideById(slideId)->delItem(deleted);
+    Application::getInstance()->getDocument()->getSlideById(slideId)->delItem(item);
 }
 
 void DelItemAction::reset()
 {
-    Application::getDocument()->getSlideById(slideId)->addItem(deleted);
-    itemId = Application::getDocument()->getSlideById(slideId)->getItemById(itemId); /// TODO : ???
+    Application::getInstance()->getDocument()->getSlideById(slideId)->addItem(item);
 }
