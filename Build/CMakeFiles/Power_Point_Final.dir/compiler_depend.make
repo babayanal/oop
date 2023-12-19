@@ -1550,7 +1550,12 @@ CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/CLI/CommandFactor
   /usr/include/c++/11/pstl/glue_memory_defs.h \
   /usr/include/c++/11/pstl/execution_defs.h \
   ../Power_Point_Final/Application/CLI/ExitCommand.hpp \
-  ../Power_Point_Final/Application/CLI/AddCommand.hpp
+  ../Power_Point_Final/Application/CLI/AddCommand.hpp \
+  ../Power_Point_Final/Application/CLI/ListCommand.hpp \
+  ../Power_Point_Final/Application/CLI/DelCommand.hpp \
+  ../Power_Point_Final/Application/CLI/SaveCommand.hpp \
+  ../Power_Point_Final/Application/CLI/LoadCommand.hpp \
+  ../Power_Point_Final/Application/CLI/DrawCommand.hpp
 
 CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/CLI/Controller.cpp.o: ../Power_Point_Final/Application/CLI/Controller.cpp \
   /usr/include/stdc-predef.h \
@@ -4577,11 +4582,9 @@ CMakeFiles/Power_Point_Final.dir/Power_Point_Final/main.cpp.o: ../Power_Point_Fi
 
 /usr/include/c++/11/fstream:
 
-../Power_Point_Final/Application/CLI/SaveCommand.hpp:
-
 ../Power_Point_Final/Application/CLI/Parser.cpp:
 
-../Power_Point_Final/Application/CLI/LoadCommand.hpp:
+../Power_Point_Final/Application/CLI/LoadCommand.cpp:
 
 /usr/include/c++/11/exception:
 
@@ -4698,6 +4701,8 @@ CMakeFiles/Power_Point_Final.dir/Power_Point_Final/main.cpp.o: ../Power_Point_Fi
 /usr/include/x86_64-linux-gnu/c++/11/bits/atomic_word.h:
 
 ../Power_Point_Final/Application/CLI/Controller.hpp:
+
+../Power_Point_Final/Application/CLI/LoadCommand.hpp:
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h:
 
@@ -4858,6 +4863,10 @@ CMakeFiles/Power_Point_Final.dir/Power_Point_Final/main.cpp.o: ../Power_Point_Fi
 /usr/include/c++/11/bits/predefined_ops.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h:
+
+../Power_Point_Final/Application/CLI/ListCommand.cpp:
+
+/usr/include/x86_64-linux-gnu/bits/long-double.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/clock_t.h:
 
@@ -5093,6 +5102,8 @@ CMakeFiles/Power_Point_Final.dir/Power_Point_Final/main.cpp.o: ../Power_Point_Fi
 
 /usr/include/c++/11/bits/stl_map.h:
 
+../Power_Point_Final/Application/CLI/SaveCommand.hpp:
+
 /usr/include/c++/11/bits/ptr_traits.h:
 
 /usr/include/endian.h:
@@ -5118,9 +5129,3 @@ CMakeFiles/Power_Point_Final.dir/Power_Point_Final/main.cpp.o: ../Power_Point_Fi
 ../Power_Point_Final/Application/CLI/DrawCommand.cpp:
 
 ../Power_Point_Final/Application/CLI/ExitCommand.cpp:
-
-/usr/include/x86_64-linux-gnu/bits/long-double.h:
-
-../Power_Point_Final/Application/CLI/ListCommand.cpp:
-
-../Power_Point_Final/Application/CLI/LoadCommand.cpp:

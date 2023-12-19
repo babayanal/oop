@@ -11,7 +11,7 @@ Application::~Application() {}
 
 std::shared_ptr<Controller> Application::getController()
 {
-    assert(!controller);
+    assert(controller);
     return controller;
 }
 

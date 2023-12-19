@@ -1558,6 +1558,11 @@ CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/CLI/CommandFactor
  /usr/include/c++/11/pstl/execution_defs.h
  /home/alvard/Documents/4-rd kurs/OOP/oop/Power_Point_Final/Application/CLI/ExitCommand.hpp
  /home/alvard/Documents/4-rd kurs/OOP/oop/Power_Point_Final/Application/CLI/AddCommand.hpp
+ /home/alvard/Documents/4-rd kurs/OOP/oop/Power_Point_Final/Application/CLI/ListCommand.hpp
+ /home/alvard/Documents/4-rd kurs/OOP/oop/Power_Point_Final/Application/CLI/DelCommand.hpp
+ /home/alvard/Documents/4-rd kurs/OOP/oop/Power_Point_Final/Application/CLI/SaveCommand.hpp
+ /home/alvard/Documents/4-rd kurs/OOP/oop/Power_Point_Final/Application/CLI/LoadCommand.hpp
+ /home/alvard/Documents/4-rd kurs/OOP/oop/Power_Point_Final/Application/CLI/DrawCommand.hpp
 
 CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/CLI/Controller.cpp.o
  /home/alvard/Documents/4-rd kurs/OOP/oop/Power_Point_Final/Application/CLI/Controller.cpp
