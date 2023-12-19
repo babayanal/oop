@@ -1,7 +1,7 @@
-CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/Application.cpp.o: \
- /home/alvard/Documents/4-rd\ kurs/OOP/oop/Power_Point_Final/Application/Application.cpp \
+CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/Actions/DelItemAction.cpp.o: \
+ /home/alvard/Documents/4-rd\ kurs/OOP/oop/Power_Point_Final/Application/Actions/DelItemAction.cpp \
  /usr/include/stdc-predef.h \
- /home/alvard/Documents/4-rd\ kurs/OOP/oop/Power_Point_Final/Application/Application.hpp \
+ /home/alvard/Documents/4-rd\ kurs/OOP/oop/Power_Point_Final/Application/Actions/DelItemAction.hpp \
  /usr/include/c++/11/memory /usr/include/c++/11/bits/stl_algobase.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -117,20 +117,14 @@ CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/Application.cpp.o
  /usr/include/c++/11/backward/auto_ptr.h \
  /usr/include/c++/11/pstl/glue_memory_defs.h \
  /usr/include/c++/11/pstl/execution_defs.h \
- /home/alvard/Documents/4-rd\ kurs/OOP/oop/Power_Point_Final/Application/CLI/Controller.hpp \
- /home/alvard/Documents/4-rd\ kurs/OOP/oop/Power_Point_Final/Application/CLI/Parser.hpp \
- /usr/include/c++/11/vector /usr/include/c++/11/bits/stl_vector.h \
- /usr/include/c++/11/bits/stl_bvector.h \
- /usr/include/c++/11/bits/vector.tcc /usr/include/c++/11/sstream \
- /usr/include/c++/11/istream /usr/include/c++/11/ios \
- /usr/include/c++/11/bits/char_traits.h /usr/include/c++/11/cstdint \
- /usr/include/c++/11/bits/localefwd.h \
+ /home/alvard/Documents/4-rd\ kurs/OOP/oop/Power_Point_Final/Application/Actions/Action.hpp \
+ /home/alvard/Documents/4-rd\ kurs/OOP/oop/Power_Point_Final/Application/Actions/../Item.hpp \
+ /usr/include/c++/11/string /usr/include/c++/11/bits/char_traits.h \
+ /usr/include/c++/11/cstdint /usr/include/c++/11/bits/localefwd.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++locale.h \
  /usr/include/c++/11/clocale /usr/include/locale.h \
  /usr/include/x86_64-linux-gnu/bits/locale.h /usr/include/c++/11/cctype \
- /usr/include/ctype.h /usr/include/c++/11/bits/ios_base.h \
- /usr/include/c++/11/bits/locale_classes.h /usr/include/c++/11/string \
- /usr/include/c++/11/bits/ostream_insert.h \
+ /usr/include/ctype.h /usr/include/c++/11/bits/ostream_insert.h \
  /usr/include/c++/11/bits/cxxabi_forced.h \
  /usr/include/c++/11/bits/basic_string.h /usr/include/c++/11/string_view \
  /usr/include/c++/11/bits/string_view.tcc \
@@ -157,6 +151,12 @@ CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/Application.cpp.o
  /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
  /usr/include/c++/11/bits/charconv.h \
  /usr/include/c++/11/bits/basic_string.tcc \
+ /home/alvard/Documents/4-rd\ kurs/OOP/oop/Power_Point_Final/Application/Actions/../Application.hpp \
+ /home/alvard/Documents/4-rd\ kurs/OOP/oop/Power_Point_Final/Application/Actions/../Document.hpp \
+ /home/alvard/Documents/4-rd\ kurs/OOP/oop/Power_Point_Final/Application/Actions/../Slide.hpp \
+ /usr/include/c++/11/iostream /usr/include/c++/11/ostream \
+ /usr/include/c++/11/ios /usr/include/c++/11/bits/ios_base.h \
+ /usr/include/c++/11/bits/locale_classes.h \
  /usr/include/c++/11/bits/locale_classes.tcc \
  /usr/include/c++/11/system_error \
  /usr/include/x86_64-linux-gnu/c++/11/bits/error_constants.h \
@@ -169,24 +169,10 @@ CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/Application.cpp.o
  /usr/include/c++/11/bits/streambuf_iterator.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/ctype_inline.h \
  /usr/include/c++/11/bits/locale_facets.tcc \
- /usr/include/c++/11/bits/basic_ios.tcc /usr/include/c++/11/ostream \
- /usr/include/c++/11/bits/ostream.tcc \
- /usr/include/c++/11/bits/istream.tcc \
- /usr/include/c++/11/bits/sstream.tcc \
- /home/alvard/Documents/4-rd\ kurs/OOP/oop/Power_Point_Final/Application/CLI/Command.hpp \
- /usr/include/c++/11/iostream /usr/include/c++/11/map \
- /usr/include/c++/11/bits/stl_tree.h \
- /usr/include/c++/11/bits/node_handle.h \
- /usr/include/c++/11/bits/stl_map.h \
- /usr/include/c++/11/bits/stl_multimap.h \
- /usr/include/c++/11/bits/erase_if.h \
- /home/alvard/Documents/4-rd\ kurs/OOP/oop/Power_Point_Final/Application/CLI/CommandFactory.hpp \
- /home/alvard/Documents/4-rd\ kurs/OOP/oop/Power_Point_Final/Application/Document.hpp \
- /home/alvard/Documents/4-rd\ kurs/OOP/oop/Power_Point_Final/Application/Slide.hpp \
- /home/alvard/Documents/4-rd\ kurs/OOP/oop/Power_Point_Final/Application/Item.hpp \
- /home/alvard/Documents/4-rd\ kurs/OOP/oop/Power_Point_Final/Application/Director.hpp \
- /home/alvard/Documents/4-rd\ kurs/OOP/oop/Power_Point_Final/Application/Actions/Action.hpp \
- /usr/include/c++/11/stack /usr/include/c++/11/deque \
- /usr/include/c++/11/bits/stl_deque.h /usr/include/c++/11/bits/deque.tcc \
- /usr/include/c++/11/bits/stl_stack.h /usr/include/c++/11/cassert \
- /usr/include/assert.h
+ /usr/include/c++/11/bits/basic_ios.tcc \
+ /usr/include/c++/11/bits/ostream.tcc /usr/include/c++/11/istream \
+ /usr/include/c++/11/bits/istream.tcc /usr/include/c++/11/vector \
+ /usr/include/c++/11/bits/stl_vector.h \
+ /usr/include/c++/11/bits/stl_bvector.h \
+ /usr/include/c++/11/bits/vector.tcc \
+ /home/alvard/Documents/4-rd\ kurs/OOP/oop/Power_Point_Final/Application/Actions/../Item.hpp

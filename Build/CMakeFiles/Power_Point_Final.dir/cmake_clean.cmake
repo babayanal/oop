@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/Actions/AddItemAction.cpp.o"
   "CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/Actions/AddItemAction.cpp.o.d"
-  "CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/Actions/AddSLideAction.cpp.o"
-  "CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/Actions/AddSLideAction.cpp.o.d"
+  "CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/Actions/AddSlideAction.cpp.o"
+  "CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/Actions/AddSlideAction.cpp.o.d"
   "CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/Actions/DelItemAction.cpp.o"
   "CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/Actions/DelItemAction.cpp.o.d"
   "CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/Actions/DelSlideAction.cpp.o"

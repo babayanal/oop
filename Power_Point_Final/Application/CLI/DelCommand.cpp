@@ -10,7 +10,7 @@ void DelCommand::exec()
 {
     if (args.at("-type") == "slide")
     {
-        Application::getDocument()->delSlide(std::make_shared<Slide>());
+        Application::getInstance()->getDocument()->delSlide(std::make_shared<Slide>());
     }
     else if (args.at("-type") == "item")
     {
@@ -19,6 +19,6 @@ void DelCommand::exec()
         auto item = std::make_shared<Item>();
         item->setShape(args.at("-shape"));
         auto action = std::make_shared<DelItemAction>(item, id);
-        Application::getDirector()->exec(action);
+        Application::getInstance()->getDirector()->exec(action);
     }
 }

@@ -8,14 +8,14 @@
 class DelSlideAction : public Action
 {
 public:
-    DelSlideAction(int slideId);
+    DelSlideAction(std::shared_ptr<Slide> slide);
 
 public:
     void exec() override;
     void reset() override;
 
 private:
-    int slideId;
+    std::shared_ptr<Slide> slide;
     std::shared_ptr<Slide> deleted;
 };
 #endif // DEL_SLIDE_ACTION_HPP

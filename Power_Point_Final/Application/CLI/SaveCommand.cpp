@@ -9,8 +9,8 @@ SaveCommand::SaveCommand(MapOfArgs args) : Command(args) {}
 
 void SaveCommand::exec()
 {
-    std::ostream &output = Application::getController()->getOutput();
-    const auto slides = Application::getDocument()->getSlides();
+    std::ostream &output = Application::getInstance()->getController()->getOutput();
+    const auto slides = Application::getInstance()->getDocument()->getSlides();
     std::ofstream file("saved_slides.txt");
 
     if (!file.is_open())

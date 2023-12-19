@@ -4,7 +4,7 @@
 int main()
 {
 
-    Application app(std::cin,std::cout);
-    app.run();
+    auto app = Application::getInstance();
+    app->run(std::cin, std::cout);
     return 0;
 }

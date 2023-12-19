@@ -9,19 +9,20 @@ class Director;
 
 class Application
 {
+private:
+    ~Application();
+    Application();
+    std::shared_ptr<Director> director;
+    std::shared_ptr<Controller> controller;
+    std::shared_ptr<Document> document;
 
 public:
-    ~Application();
-    Application(std::istream &, std::ostream &);
-    static std::shared_ptr<Controller> getController();
-    static std::shared_ptr<Document> getDocument();
-    static std::shared_ptr<Director> getDirector();
+    std::shared_ptr<Controller> getController();
+    std::shared_ptr<Document> getDocument();
+    std::shared_ptr<Director> getDirector();
+    static Application *getInstance();
 
-    void run();
-
-private:
-    std::istream &is;
-    std::ostream &os;
+    void run(std::istream &, std::ostream &);
 };
 
 #endif // APPLICATION_HPP

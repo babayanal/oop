@@ -1,11 +1,11 @@
 #include "Controller.hpp"
 
-void Controller::run(std::istream &is, std::ostream &os)
+void Controller::run()
 {
     Parser parser;
     while (!isExit)
     {
-        auto cmd = parser.parse(is);
+        auto cmd = parser.parse(input);
         cmd->exec();
     }
 }

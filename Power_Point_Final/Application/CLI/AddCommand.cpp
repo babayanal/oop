@@ -10,7 +10,7 @@ AddCommand::AddCommand(MapOfArgs args) : Command(args) {}
 void AddCommand::exec()
 {
     if(args.at("-type")=="slide"){
-        Application::getDocument()->addSlide(std::make_shared<Slide>());
+        Application::getInstance()->getDocument()->addSlide(std::make_shared<Slide>());
     }
     else if(args.at("-type")=="item") {
         int id=std::stoi(args.at("-id"));
@@ -18,6 +18,6 @@ void AddCommand::exec()
         auto item = std::make_shared<Item>();
         item->setShape(args.at("-shape"));
         auto action=std::make_shared<AddItemAction>(item,id);
-        Application::getDirector()->exec(action);
+        Application::getInstance()->getDirector()->exec(action);
     }
 }

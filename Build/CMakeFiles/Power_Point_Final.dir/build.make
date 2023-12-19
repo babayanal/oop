@@ -83,19 +83,19 @@ CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/Actions/AddItemAc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/Actions/AddItemAction.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/alvard/Documents/4-rd kurs/OOP/oop/Power_Point_Final/Application/Actions/AddItemAction.cpp" -o CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/Actions/AddItemAction.cpp.s
 
-CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/Actions/AddSLideAction.cpp.o: CMakeFiles/Power_Point_Final.dir/flags.make
-CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/Actions/AddSLideAction.cpp.o: ../Power_Point_Final/Application/Actions/AddSLideAction.cpp
-CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/Actions/AddSLideAction.cpp.o: CMakeFiles/Power_Point_Final.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/alvard/Documents/4-rd kurs/OOP/oop/Build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/Actions/AddSLideAction.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/Actions/AddSLideAction.cpp.o -MF CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/Actions/AddSLideAction.cpp.o.d -o CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/Actions/AddSLideAction.cpp.o -c "/home/alvard/Documents/4-rd kurs/OOP/oop/Power_Point_Final/Application/Actions/AddSLideAction.cpp"
+CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/Actions/AddSlideAction.cpp.o: CMakeFiles/Power_Point_Final.dir/flags.make
+CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/Actions/AddSlideAction.cpp.o: ../Power_Point_Final/Application/Actions/AddSlideAction.cpp
+CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/Actions/AddSlideAction.cpp.o: CMakeFiles/Power_Point_Final.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/alvard/Documents/4-rd kurs/OOP/oop/Build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/Actions/AddSlideAction.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/Actions/AddSlideAction.cpp.o -MF CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/Actions/AddSlideAction.cpp.o.d -o CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/Actions/AddSlideAction.cpp.o -c "/home/alvard/Documents/4-rd kurs/OOP/oop/Power_Point_Final/Application/Actions/AddSlideAction.cpp"
 
-CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/Actions/AddSLideAction.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/Actions/AddSLideAction.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/alvard/Documents/4-rd kurs/OOP/oop/Power_Point_Final/Application/Actions/AddSLideAction.cpp" > CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/Actions/AddSLideAction.cpp.i
+CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/Actions/AddSlideAction.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/Actions/AddSlideAction.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/alvard/Documents/4-rd kurs/OOP/oop/Power_Point_Final/Application/Actions/AddSlideAction.cpp" > CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/Actions/AddSlideAction.cpp.i
 
-CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/Actions/AddSLideAction.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/Actions/AddSLideAction.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/alvard/Documents/4-rd kurs/OOP/oop/Power_Point_Final/Application/Actions/AddSLideAction.cpp" -o CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/Actions/AddSLideAction.cpp.s
+CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/Actions/AddSlideAction.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/Actions/AddSlideAction.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/alvard/Documents/4-rd kurs/OOP/oop/Power_Point_Final/Application/Actions/AddSlideAction.cpp" -o CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/Actions/AddSlideAction.cpp.s
 
 CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/Actions/DelItemAction.cpp.o: CMakeFiles/Power_Point_Final.dir/flags.make
 CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/Actions/DelItemAction.cpp.o: ../Power_Point_Final/Application/Actions/DelItemAction.cpp
@@ -366,7 +366,7 @@ CMakeFiles/Power_Point_Final.dir/Power_Point_Final/main.cpp.s: cmake_force
 # Object files for target Power_Point_Final
 Power_Point_Final_OBJECTS = \
 "CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/Actions/AddItemAction.cpp.o" \
-"CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/Actions/AddSLideAction.cpp.o" \
+"CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/Actions/AddSlideAction.cpp.o" \
 "CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/Actions/DelItemAction.cpp.o" \
 "CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/Actions/DelSlideAction.cpp.o" \
 "CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/Application.cpp.o" \
@@ -391,7 +391,7 @@ Power_Point_Final_OBJECTS = \
 Power_Point_Final_EXTERNAL_OBJECTS =
 
 Power_Point_Final: CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/Actions/AddItemAction.cpp.o
-Power_Point_Final: CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/Actions/AddSLideAction.cpp.o
+Power_Point_Final: CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/Actions/AddSlideAction.cpp.o
 Power_Point_Final: CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/Actions/DelItemAction.cpp.o
 Power_Point_Final: CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/Actions/DelSlideAction.cpp.o
 Power_Point_Final: CMakeFiles/Power_Point_Final.dir/Power_Point_Final/Application/Application.cpp.o
