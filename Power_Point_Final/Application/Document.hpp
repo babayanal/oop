@@ -6,7 +6,6 @@
 
 #include "Slide.hpp"
 
-using VectorOfStrings = std::vector<std::string>;
 
 class Document
 {

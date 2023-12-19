@@ -10,7 +10,9 @@ void DelCommand::exec()
 {
     if (args.at("-type") == "slide")
     {
-        Application::getInstance()->getDocument()->delSlide(std::make_shared<Slide>());
+        int id = std::stoi(args.at("-id"));
+        auto slide = Application::getInstance()->getDocument()->getSlideById(id);
+        Application::getInstance()->getDocument()->delSlide(slide);
     }
     else if (args.at("-type") == "item")
     {

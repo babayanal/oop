@@ -3,7 +3,7 @@
 
 #include "Command.hpp"
 
-class CommandFactory : public Command
+class CommandFactory 
 {
 public:
     static std::unique_ptr<Command> create(String name, MapOfArgs args);
